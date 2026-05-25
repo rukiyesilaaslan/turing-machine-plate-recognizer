@@ -162,3 +162,11 @@ python3 TuringMachinePlaka.py
 - Turing Machine Simulation Models
 - Formal Languages and Automata Theory
 - State Transition Systems
+
+---
+
+## Proje anlatım youtube linki
+
+```text
+https://youtu.be/pyys3k3jBfE
+```
