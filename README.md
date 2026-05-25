@@ -65,22 +65,21 @@ Projede aşağıdaki Turing Makinesi bileşenleri modellenmiştir:
 
 ## Proje Dosya Yapısı
 
-plaka-taniyici-turing/
-│
+```text
+plaka-taniyi-turing/
 ├── TuringMachinePlaka.py        # Python simülatör kod dosyası
 ├── README.md                    # Proje açıklama dokümanı (Bu dosya)
-│
 ├── images/                      # Teori ve tasarım görselleri klasörü
 │   ├── gecis_tablosu.png
 │   ├── durum_gecis_diyagrami.png
 │   └── makinenin_bicimsel_tanimi.png
-│
 └── outputs/                     # Terminal simülasyon test çıktıları
-    ├── ornek1.png               (Geçerli Girdi: 55AB123 - KABUL)
-    ├── ornek2.png               (Geçerli Girdi: 34TR456 - KABUL)
-    ├── ornek3.png               (Geçersiz Girdi: 5AB123 - Eksik Karakter RED)
-    ├── ornek4.png               (Geçersiz Girdi: 555AB12 - Yanlış Format RED)
-    └── ornek5.png               (Geçersiz Girdi: 55ab123 - Küçük Harf RED)
+    ├── ornek1.png               # (Geçerli Girdi: 55AB123 - KABUL)
+    ├── ornek2.png               # (Geçerli Girdi: 34TR456 - KABUL)
+    ├── ornek3.png               # (Geçersiz Girdi: 5AB123 - Eksik Karakter RED)
+    ├── ornek4.png               # (Geçersiz Girdi: 55AB122 - Yanlış Format RED)
+    └── ornek5.png               # (Geçersiz Girdi: 55ab123 - Küçük Harf RED)
+```
 ---
 
 ## Makinenin Biçimsel Tanımı 
